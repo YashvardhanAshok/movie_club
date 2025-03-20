@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navrasa</title>
+
+    <script src="https://kit.fontawesome.com/1c2c2462bf.js" crossorigin="anonymous"></script>
+    
+    <link rel='stylesheet' type='text/css' media='screen' href='qr.css'>
+    <meta charset="UTF-8">
+    <title>QR Code Scanner</title>
+    <script src="https://cdn.jsdelivr.net/npm/jsqr@1.0.0/dist/jsQR.js"></script>
+
+</head>
+<body>
+    <div class="imgbacground"><div class="img"></div></div>
+
+
+    <div class="movname">
+        <select name="movies" class="movname" id="cars">
+        <option value="movie1">D1 Movie1</option>
+        <option value="movie2">D1 Movie2</option>
+        <option value="movie3">D1 Movie3</option>
+        <option value="movie4">D2 Movie4</option>
+        <option value="movie5">D2 Movie5</option>
+        <option value="movie6">D2 Movie6</option>
+        </select>    
+</div>
+
+
+    <div class="qrcodeCAM">
+        <video id="qr-video"autoplay></video>
+    </div>
+    <canvas id="qr-canvas"></canvas>
+    <div id="qr-result"></div>
+    <div class="card">
+        <div id="typeOfMEMBER"></div>
+        <div id="nameDiv"></div>
+        <div class="moviesENTRY"></div>
+        <div id="cmovies"></div>
+    </div>
+    <div class="wrapAllowwrap">
+        <div class="wrapAllow">
+            <div class="divider"></div>
+            <div id="getDataButton" class="allow" >ALLOW</div>
+            <div class="divider1"></div>
+            <div class="DoNotallow">DoNotallow</div>
+            <div class="divider1"></div>
+        </div>
+    </div>
+
+    <script src='qr.js'></script>
+</body>
+</html>
+
+
+
+
+

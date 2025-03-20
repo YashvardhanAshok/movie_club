@@ -1,0 +1,161 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: rgb(145, 43, 41);
+    color: rgba(255, 255, 255, 0.808);
+    font-family: 'Lato', sans-serif;
+  }
+
+  ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: transparent;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 0px;
+    background-color: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: transparent;
+  }
+
+
+.imgbacground{
+    position: relative;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.558);
+}
+
+.img{
+    position: absolute;
+    margin: 11px;
+    margin-left: 13px;
+    height: 75px;
+    width: 190px;
+    background-image:url('../navrasaduende.png');
+    background-position: center;
+    background-size:100% 100%;
+  }
+
+.movname{
+padding:10px 0;
+  font-weight: bold;
+  font-size: 42px;
+  width: 100%;
+  text-align: center;
+}
+
+.qrcodeCAM{
+    position: relative;
+    width: 100%;
+    height: 350px;
+ 
+}
+.video-container {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 90%;
+    border-radius: 10px;
+    height: 100%;
+    background-color:rgb(63, 20, 20) ;
+}
+
+
+.qr-canvas {
+    display: none;
+}
+
+.qr-result{
+  display: none;
+  /* color: aquamarine; */
+}
+
+.card{
+  margin: auto;
+  margin-top: 10px;
+  width: 90%;
+  border-radius:10px ;
+  background-color: rgb(63, 20, 20);
+  padding:10px 0 ;
+}
+
+#nameDiv{
+  padding-left: 4%;
+}
+
+#cmovies,#movies,.movies{
+  padding-top: 3%;
+  padding-left: 4%;
+}
+
+
+#typeOfMEMBER{
+  padding-left: 4%;
+}
+
+.wrapAllowwrap{
+
+}
+
+.wrapAllow{
+
+}
+
+.allow,.DoNotallow{
+padding: 10px 0;
+width: 90%;
+margin-left:20px ;
+text-align: center;
+border-radius: 12px;
+margin: auto;
+background-color: rgb(63, 20, 20);
+}
+
+.divider{
+  width: 100%;
+  height: 8px;
+}
+
+.divider1{
+  width: 100%;
+  height: 8px;
+}
+
+/* @media (min-width: 767px) {
+
+.qrcodeCAM{
+  position: relative;
+  width: 100%;
+  height: 400px;
+}
+
+.video-container {
+    position: absolute;
+    left: 1%;
+    transform: translate(0);
+    width: 20%;
+    border-radius: 10px;
+    height: 100%;
+    background-color:rgb(63, 20, 20) ;
+}
+
+.card{
+  position: absolute;
+  margin-top: 10px;
+  width: 78%;
+  top:160px;
+  right: 10px;
+  border-radius:10px ;
+  background-color: rgb(63, 20, 20);
+  padding:10px 0 ;
+}
+
+.wrapAllow{
+  
+}
+} */

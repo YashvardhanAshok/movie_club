@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: transparent;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+/* page1 */
+.page1{
+  background-color: #300a0a;
+
+  background-color: rgba(134, 30, 30, 0.874);
+  background-color: rgba(117, 12, 12, 0.932);
+
+  /* height: 300vh; */
+  padding-bottom: 30px;
+}
+
+.comeJoinUs{
+  position: relative;
+  top: 155px;
+
+  height: 230px;
+  padding-left: 90px;
+  font-size: 80px;
+  font-weight: bold;
+
+  color: rgb(211, 211, 211);
+}
+
+
+
+.BOXCUN{
+  height: 580px;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+
+  margin:15px auto;
+  border-radius: 30px;
+  background-color: #00000034;
+
+  transition: opacity 0.5s; 
+}
+
+.para_in_BOXCUn{
+  position: relative;
+width: 61%;
+height: 490px;
+/* background-color: green; */
+margin-top: 45px;
+/* overflow:hidden ; */
+margin-left: 45px;
+}
+
+
+.transparent {
+  opacity: 0.5; /* Adjust the opacity value as needed */
+}
+
+.para_in_BOXCUn p {
+  padding:10px;
+  color: white;
+  font-size: 25px;
+  line-height: 1;
+}
+
+.para_in_BOXCUn h1 {
+  color: white;
+  font-size: 45px;
+  line-height: 0%;
+}
+
+
+.para_in_BOXCUn .button-81 {
+  background-color: #fff;
+  border: 0 solid #e2e8f0;
+  border-radius: 1.5rem;
+  box-sizing: border-box;
+  color: #0d172a;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1;
+  padding: 1rem 1.6rem;
+  text-align: center;
+  text-decoration: none #0d172a solid;
+  text-decoration-thickness: auto;
+  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+  position: relative;
+  margin: -3px;
+}
+
+.para_in_BOXCUn .button-81:hover {
+  background-color: #1e293b;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .button-81 {
+    font-size: 1.125rem;
+    padding: 1rem 2rem;
+  }
+}
+
+
+.img_Box{
+  position: relative;
+  top: 50%;
+  transform: translate(0,-50%);
+  margin-right: 40px;
+  
+
+  background-color: #300606;
+  border-radius: 20px;
+  height: 480px;
+  width: 480px;
+  overflow: hidden;
+  }
+
+
+.img_inside{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-image: url('./img/moviePosters/1.png');
+  animation: sifter 10s infinite ease-in-out;
+}
+
+@keyframes sifter {
+  0%{
+  background-image: url('./img/moviePosters/1.png');
+  }
+15%{
+  background-image: url('./img/moviePosters/1.png');
+}
+
+
+25%{
+  background-image: url('./img/moviePosters/3.png');
+}
+65%{
+  background-image: url('./img/moviePosters/3.png');
+}
+
+
+75%{
+  background-image: url('./img/moviePosters/8.png');
+}
+90%{
+  background-image: url('./img/moviePosters/8.png');
+}
+
+99%{
+  background-image: url('./img/moviePosters/1.png');
+}
+
+
+
+}
+
+
+
+
+
+
+.player {
+  position: absolute;
+  
+  width: 240%;
+  height: 240%;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%,-50%);
+  opacity: 0.9;
+}
+
+.BOOK_NOW {
+  top:-10px;  
+	display: flex;
+	position: relative;
+	overflow: hidden;
+  width: 210px;
+
+	height: var(--MENU-size);
+	margin: 8px;
+	border-radius: 20px;
+
+background-color: #700000;
+	text-decoration: none;
+	transition: var(--MENU_trans-property);
+}
+
+.BOOK_NOW .BOOK_NOW_BAR {
+  position: absolute;
+  top:10px ;
+  font-size: 26px;
+  font-weight: 555;
+  text-align: left;
+	width: 100%;
+  /* padding-left:20px ; */
+  color: white;
+	transition: var(--MENU_trans-property);
+  width: 100%;
+  text-align: center;
+}
+
+/*** Animations ***/
+.BOOK_NOW:hover {	background-color: rgb(196, 0, 0);
+	transition: var(--MENU_trans-property);
+}
+
+.BOOK_NOW:hover .BOOK_NOW_BAR{
+	color: #fff;
+  top:-30px;
+	transition: var(--MENU_trans-property);
+}
+
+.BOOK_NOW:hover:after{
+	transform: translate(0) scale(1);
+}
+
+a.a.BOOK_NOW:after {
+content: "BOOK NOW";
+width: 100%;
+text-align: center;
+}
+
+a.b.BOOK_NOW:after {
+  content: "LEARN MORE";
+  width: 100%;
+text-align: center;
+}
+
+
+
+
+.BOOK_NOW:after {
+	width: 100%;
+  padding-top:10px ;
+  /* padding-left:20px ; */
+	height: var(--MENU-size);
+	position: absolute;
+	transform: translate(0, var(--MENU-size));
+	border-radius: 20px;
+	transition: var(--MENU_trans-property);
+  /* background-color: #1769ff; */
+  font-size: 26px;
+  font-weight: 555;
+  text-align: left;
+  color: white;
+}
+
+.mov_box1{
+  position: absolute;
+  left: 40px;
+  
+}
+.mov_box2{
+  position: absolute;
+  left: 260px;
+}
+
+
+/* laptop *//* laptop *//* laptop *//* laptop *//* laptop *//* laptop *//* laptop *//* laptop *//* laptop *//* laptop *//* laptop *//* laptop *//* laptop *//* laptop *//* laptop */
+/* laptop *//* laptop *//* laptop *//* laptop *//* laptop *//* laptop *//* laptop *//* laptop *//* laptop *//* laptop *//* laptop *//* laptop *//* laptop *//* laptop *//* laptop */
+.mob{display: none;}
+
+@media (max-width: 767px) {
+
+
+  .mob{display: block;}
+  .laptop{display: none;}
+
+
+
+/* page1 *//* page1 *//* page1 *//* page1 *//* page1 *//* page1 */
+/* page1 *//* page1 *//* page1 *//* page1 *//* page1 *//* page1 */
+.page1{
+  background-color: #300a0a;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  overflow-x: hidden;
+
+}
+
+.diver_of_line{
+    position: relative;
+    height: 90px;
+    width: 100%;
+}
+
+.Season_of_show{
+    width: 100%;
+    text-align: left ;
+    font-size: 7vw;
+    color: #fff;
+    position: relative;
+    font-weight: 500;
+    padding-left: 8vw;
+}
+
+.comejoinus{
+    width: 100%;
+margin-top: -10px;
+    text-align: left ;
+    font-size: 10vw;
+    color: #fff;
+    position: relative;
+    font-weight: bold;
+    padding-left: 8vw;
+}
+
+.card {
+    position: relative;
+    margin: auto;
+    border-radius: 25px;
+    width: 90%;
+    background-color: #1769ff;
+    height: 465px;
+    margin-bottom: 20px;
+    transform-style: preserve-3d;
+    transform: rotateY(0deg);
+    transition: transform 0.6s ease-in-out, width 0.8s ease-in-out, height 0.8s ease-in-out;
+    
+
+    background-size: cover;
+    background-position: center;
+    transform: 0;
+    /* filter: brightness(70%); */
+    -webkit-transform: scaleX(-1);
+  }
+
+
+
+
+  
+  .card1 {
+    position: relative;
+    margin: auto;
+    border-radius: 25px;
+    width: 90%;
+    background-color: #1769ff;
+    height: 465px;
+    margin-bottom: 20px;
+    transform-style: preserve-3d;
+    transform: rotateY(0deg);
+    transition: transform 0.6s ease-in-out, width 0.8s ease-in-out, height 0.8s ease-in-out;
+  }
+
+ .card_box{
+  bottom: 0;
+  /* background-color: #1769ff; */
+  position: absolute;
+  color:rgb(255, 255, 255);
+  max-width: 100%;
+  padding: 10px;
+  padding-left: 20px;
+  padding-bottom: 18px;
+  padding-top: 18px;
+  margin: auto;
+  background-color: #00000057;
+  opacity:0;
+  transition: 1s;
+
+  
+ }
+
+ .card.active .card_box{
+  opacity: 1;
+ } 
+
+ .card_box h1,.card_box p{margin: 0; padding: 0;}
+ .card_box p{margin: 0; padding: 5px;}
+  
+}
+
+
+.card::before{
+  position: absolute;
+  content: "";
+  border-radius: 20px;
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  opacity: 1;
+  transition: 0.3s ease-in-out;
+  background-size: cover;
+  background-position: center;
+  background-image: url('./img/8.png');
+  transform: 0;
+  filter: brightness(70%);
+  -webkit-transform: scaleX(-1);
+}
+
+.card.active::before{
+opacity: 0;
+}
+

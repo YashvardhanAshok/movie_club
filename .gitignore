@@ -1,0 +1,33 @@
+# Ignore virtual environment
+venv/
+.Venv/
+env/
+db/data/
+.db/data/
+
+Cirtana-lite/vosk-model-en-in-0.5/
+.Cirtana-lite/vosk-model-en-in-0.5/
+.Cirtana-lite/vosk-model-small-en-us-0.15/
+Cirtana-lite/vosk-model-small-en-us-0.15/
+
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment metadata
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Editor and OS-specific files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+.home_video_and_img/video/done/non-comprest-123.mp4
+home_video_and_img/video/done/non-comprest-123.mp4
+
+.home_video_and_img/video/done/non-comprest-vi1.mp4
+home_video_and_img/video/done/non-comprest-vi1.mp4
